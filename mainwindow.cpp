@@ -18,11 +18,11 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->setupUi(this);
     setWindowTitle("simply翻译");
 
-    translatetool = new TranslateTool(this);    //设置窗口置顶
+    translatetool = new TranslateTool(this);
 
     setWindowOpacity(0.9);
 
-    setWindowFlags(this->windowFlags() | Qt::WindowStaysOnTopHint);
+    setWindowFlags(this->windowFlags() | Qt::WindowStaysOnTopHint);    //设置窗口置顶
     m_label = new QLabel(this);
     ui->statusBar->addWidget(m_label);
 
@@ -34,6 +34,7 @@ MainWindow::MainWindow(QWidget *parent) :
     //链接显示翻译结果
     connect(translatetool,&TranslateTool::translateOK,this,[=](QString res){
         ui->ed_tranTo->setText(res);
+        ui->groupBox_2->setTitle("翻译结果");
     });
 
     TranStyle = new QVector<QString>    //显示翻译类型
@@ -96,6 +97,7 @@ void MainWindow::on_btn_tran_clicked()  //翻译
     {
         QMessageBox::warning(this,"错误","curIndex error");
     }
+    ui->groupBox_2->setTitle("翻译中...");
     translatetool->TranslateFromBaidu(src,TranStylecode->value(curIndex).first,TranStylecode->value(curIndex).second);
 }
 
