@@ -1,0 +1,68 @@
+/**正常情况下样式**/
+QWidget
+{
+    font: 10pt "黑体";
+}
+
+QComboBox {
+    height: 36px;
+    background-color: rgb(236,245,255);
+    border-color: rgb(64,158,255);
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+}
+QPushButton{
+    color: #2f3542;
+    background-color: rgb(236,245,255);
+    border-color: rgb(64,158,255);
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+}
+
+/**鼠标停留在按钮上的样式**/
+QPushButton::hover{
+    color: #FFFFFF;
+    background-color: rgb(64,158,255);
+}
+
+/**鼠标按压下去的样式**/
+QPushButton::pressed,QPushButton::checked{
+    color: rgb(64,158,255);
+}
+
+/**按钮失能情况下样式**/
+QPushButton::disabled{
+    color: #FFFFFF;
+    background-color: #dcdde1;
+    border-color: #dcdde1;
+}
+
+QLineEdit
+{
+    background-color: #dcdde1;
+    padding: 8px;
+    border-width: 2px;
+    border-color: #008c8c;
+    border-radius: 10px;
+}
+
+
+QGroupBox{
+    border: 1px solid rgb(80,80,80);
+    border-radius:6px;
+    margin-top:12px; 
+}
+QGroupBox:title {
+    color:rgb(12, 131, 211);
+    subcontrol-origin: margin;
+    left: 10px;
+
+}
+
+QTextEdit {
+    background-color:transparent;
+    border: 0px;
+}
