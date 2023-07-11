@@ -1,0 +1,7 @@
+"C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.1.4/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\code\qt-project-from-windows\QtBaiduTranslate -B D:\code\qt-project-from-windows\QtBaiduTranslate\cmake-build-debug
+CMake Error at CMakeLists.txt:30 (message):
+  message called with incorrect number of arguments
+
+
+-- Configuring incomplete, errors occurred!
+See also "D:/code/qt-project-from-windows/QtBaiduTranslate/cmake-build-debug/CMakeFiles/CMakeOutput.log".

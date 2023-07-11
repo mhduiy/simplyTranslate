@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "simplyTranslate",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "simplyTranslate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simplyTranslate-Debug-9c0764727f5f8b767ac8.json",
+					"name" : "simplyTranslate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simplyTranslate_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simplyTranslate_autogen-Debug-67e31975c7ad0f584681.json",
+					"name" : "simplyTranslate_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/code/qt-project-from-windows/QtBaiduTranslate/cmake-build-debug",
+		"source" : "D:/code/qt-project-from-windows/QtBaiduTranslate"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

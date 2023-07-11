@@ -1,0 +1,4 @@
+D:/code/qt-project-from-windows/QtBaiduTranslate/build/CMakeFiles/simplyTranslate.dir
+D:/code/qt-project-from-windows/QtBaiduTranslate/build/CMakeFiles/edit_cache.dir
+D:/code/qt-project-from-windows/QtBaiduTranslate/build/CMakeFiles/rebuild_cache.dir
+D:/code/qt-project-from-windows/QtBaiduTranslate/build/CMakeFiles/simplyTranslate_autogen.dir

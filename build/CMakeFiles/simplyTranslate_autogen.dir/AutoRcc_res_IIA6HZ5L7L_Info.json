@@ -1,0 +1,23 @@
+{
+	"BUILD_DIR" : "D:/code/qt-project-from-windows/QtBaiduTranslate/build/simplyTranslate_autogen",
+	"CMAKE_BINARY_DIR" : "D:/code/qt-project-from-windows/QtBaiduTranslate/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/code/qt-project-from-windows/QtBaiduTranslate/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/code/qt-project-from-windows/QtBaiduTranslate",
+	"CMAKE_SOURCE_DIR" : "D:/code/qt-project-from-windows/QtBaiduTranslate",
+	"INCLUDE_DIR" : "D:/code/qt-project-from-windows/QtBaiduTranslate/build/simplyTranslate_autogen/include",
+	"INPUTS" : 
+	[
+		"D:/code/qt-project-from-windows/QtBaiduTranslate/src/res/mainStyle.css",
+		"D:/code/qt-project-from-windows/QtBaiduTranslate/src/res/icon.svg"
+	],
+	"LOCK_FILE" : "D:/code/qt-project-from-windows/QtBaiduTranslate/build/CMakeFiles/simplyTranslate_autogen.dir/AutoRcc_res_IIA6HZ5L7L_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "res" ],
+	"OUTPUT_CHECKSUM" : "IIA6HZ5L7L",
+	"OUTPUT_NAME" : "qrc_res.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/Qt5.14.2/5.14.2/mingw73_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/code/qt-project-from-windows/QtBaiduTranslate/build/CMakeFiles/simplyTranslate_autogen.dir/AutoRcc_res_IIA6HZ5L7L_Used.txt",
+	"SOURCE" : "D:/code/qt-project-from-windows/QtBaiduTranslate/src/res/res.qrc",
+	"VERBOSITY" : 0
+}

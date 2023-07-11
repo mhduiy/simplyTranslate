@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+08448625a1acac0ddab7324f29c8a30d CMakeFiles/simplyTranslate_autogen
+1573e6e493c2de8ca4a03f81062e1628 simplyTranslate_autogen/IIA6HZ5L7L/qrc_res.cpp

@@ -17,9 +17,10 @@ int main(int argc, char *argv[])
     if(file.isOpen()) {
         w.setStyleSheet(file.readAll());
     }
+
     w.setMinimumSize(580, 400);
     w.show();
-    QDesktopWidget *deskdop=QApplication::desktop();
-    w.move((deskdop->width()-w.width())/2, (deskdop->height()-w.height())/2);
+    QDesktopWidget *desktop=QApplication::desktop();
+    w.move((desktop->width()-w.width())/2, (desktop->height()-w.height())/2);
     return a.exec();
 }
